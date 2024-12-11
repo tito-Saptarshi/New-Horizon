@@ -61,13 +61,12 @@ export function TrialForm({ classData }: { classData: TrialClass[] }) {
     <>
       <Card className="w-full max-w-md">
         <CardHeader>
-          <CardTitle>Register for Online Classes</CardTitle>
+          <CardTitle>Register for Trial Classes</CardTitle>
           <CardDescription>
-            Enter your details to register for our coaching institute&apos;s
-            online classes.
+            Enter your details to register for our trial class
           </CardDescription>
         </CardHeader>
-        <form className="mt-8 space-y-6 p-5" onSubmit={handleSubmit}>
+        <form className="space-y-6 p-5" onSubmit={handleSubmit}>
           <div className="rounded-md shadow-sm space-y-4">
             <div>
               <Label htmlFor="name">Full Name</Label>

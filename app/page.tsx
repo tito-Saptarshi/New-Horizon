@@ -15,7 +15,7 @@ export default async function Home() {
   const classData = await getClassData();
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
-      <h1 className={`${montserrat.className} text-4xl font-bold text-primary mb-8 text-center`}>
+      <h1 className={`${montserrat.className} text-4xl font-bold text-primary mb-4 text-center`}>
         New Horizon
       </h1>
       <TrialForm classData={classData}/>
