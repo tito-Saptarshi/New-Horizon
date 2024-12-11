@@ -6,7 +6,8 @@ import { useSearchParams } from "next/navigation";
 const NewPage = () => {
   const searchParams = useSearchParams();
   const passKey = searchParams.get("passKey");
-  const pass = process.env.NEXT_PUBLIC_PASS_ADMIN;
+  // const pass = process.env.NEXT_PUBLIC_PASS_ADMIN;
+  const pass = "abc"
 
 
   if (passKey !== pass) {
